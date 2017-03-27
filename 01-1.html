@@ -14,13 +14,27 @@
        </video>
 
 <script>
-  //  1.0  mate标签中放置一个name 以及一个http-equiv  以及content标签
-  //  1.1 video.min.js 在script标签中引入这种文件的作用
+  //  1.0  mate标签: name(与content相对应比如name="keywords"&&"参数"),content(content="关键字"&&"参数"),
+  //                 http-equiv(与content相对应,
+  //                 http-equiv="Pragma"<禁止浏览器从本地计算机的缓存中访问页面内容>,content("no-cache")
+  //                 http-equiv='Expires'<期限>),content(具体的过期时间)
+  //                 http-equiv='Refresh'<自动刷新并且指向新页面>),content="具体的时间",URL="网址"  表示过了时间刷新页面并且指向URL地址页面
+  //                 http-equiv='Set-Cookie'<如果网页过期,cookie将被删除>),content="cookie value=xxx;expires=Friday,12-Jan-200118:18:18GMT；path=/",
+  //                 http-equiv='Window-target'<强制在当前窗口以独页面显示>),content="_top",
+  //                 http-equiv='content-Type' <设定页面显示的字符集>),content="text/html;charset=gb2312",
+  //                 
+  //  1.1 video.min.js 在script标签在head中引入
+  //  
+  //     video.js是一款很流行的html5视频播放插件。很适合在移动端播放视频(比如微信网页)，功能强大，且支持降级到flash,兼容ie8。官网：http://videojs.com/   
+  //         
   //  1.2 !-- iqiyi视频播放 -->   <meta property="qc:admins" content="155061566665141436375" /
   //  1.3swiper js 根跟jquery js 中的差别         input 中的hidden
   //  1.4em 斜体字  强调的内容
-  //  1.5  video_source="http://www.jplayer.org/video/m4v/Incredibles_Teaser.m4v"  在标签中使用一个video
+  //  1.5  video_source="http://www.jplayer.org/video/m4v/Incredibles_Teaser.m4v"   在标签中使用一个video
   //    video_source属性  而不是方法    video 标签当中的一个 source  src用来引入视屏文件 然而 type使用来声明引入文件的格式
+  //    
+  //    
+  //    
 
 
 
