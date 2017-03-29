@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+     <!--  Compatible 兼容性 设置IE浏览器的兼容模式 让IE浏览器使用最新的渲染引擎渲染页面 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 视口 浏览器的可视窗口 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>微金所</title>
+    <!-- Bootstrap -->
+
+     <!-- 引入Bootstrap的css文件 -->
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- 注意引入less文件  rel必须为 rel="stylesheet/less"    注意我的包在css里面   直接去使用Bootstap提供的css样式表,但是Bootstrap源码是基于最流行的css预处理脚本-Less和Sass开发的  所以可以采用预编译css文件快速开发 所以引用lee包 进行预编译-->
+    <link rel="stylesheet/less" href="less/wjs.less">
+
+
+    <!-- 引入一个图标字体文件 -->
+    <link rel="stylesheet" href="style.font/style.css">
+
+    <!-- 预编译后有需要进行编译所以需要引入less的js文件 编译器,用来编译的less文件的js文件 先引入less文件再引入js文件 -->
+    <!-- 必须用HTTP协议访问页面 -->
+    <script src="lib/less/less.js"></script>
+    <!-- html5 shiv 和 respond.js  为了 IE8 支持 HTML5 新元素 和 媒体查询 -->
+    <!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- 警告: respond.js 不能工作 如果 你 查看页面 用来 file:// -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <h1>你好，世界！</h1>
+    <!-- Bootstrap的JS插件依赖jquery -->
+    <script src="lib/jquery/jquery.js"></script>
+    <!-- 引入Boostrap的js文件  js插件代码文件-->
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
