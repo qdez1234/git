@@ -12,6 +12,15 @@
 
 6.0   git push -u origin gh-pages 将代码提交到这个分支
 
+git reset --heard   将上一次提交的全部干掉
+
+git stash 将当前任务暂存起来
+
+git pull 拉可以工作代码  git add.  git comit  git pull 工作完之后
+
+git pop 然后将以前暂存的代码重新开始恢复  继续开始的工作
+
+
 
 ....................................分支管理................................................
 7.0   克隆通过ssh     git@github.com:qdez1234/TJD-1.git(用户名/仓库加上.git后缀)
